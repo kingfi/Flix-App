@@ -161,9 +161,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uf1-48-0px">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uf1-48-0px">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Qw5-sG-9rB">
                                     <size key="itemSize" width="198" height="307"/>
@@ -194,6 +193,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="uf1-48-0px" firstAttribute="trailing" secondItem="oQV-oo-OAX" secondAttribute="trailing" id="OjV-KT-41y"/>
+                            <constraint firstAttribute="bottom" secondItem="uf1-48-0px" secondAttribute="bottom" id="QZu-17-wCw"/>
+                            <constraint firstItem="uf1-48-0px" firstAttribute="top" secondItem="bVT-gA-KQT" secondAttribute="top" id="TvQ-8K-u7Q"/>
+                            <constraint firstItem="uf1-48-0px" firstAttribute="leading" secondItem="oQV-oo-OAX" secondAttribute="leading" id="hGC-Dm-V92"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="oQV-oo-OAX"/>
                     </view>
                     <navigationItem key="navigationItem" id="SYf-jf-r5S"/>
